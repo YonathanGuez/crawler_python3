@@ -1,5 +1,6 @@
-# crawler_python3
-Training  :This project is dedicate to get some information on website
+# Begining Crawler / Scraping with Python3 
+Training  :
+This project is dedicate to get some information on website and test some library like BeautifulSoup / Chromedrive / requests  
 
 ## Chrome 
 version : 80.0.3XXXX 
