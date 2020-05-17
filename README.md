@@ -22,6 +22,7 @@ pip 20
 python check_heading_hierarchy.py --url <https://URL>
 ```
 ### Example how to use it : 
+Click here :
 <a href="https://www.youtube.com/watch?v=PYVce3tU2K8">
     <p align="center">
       <img width="800" height="500" src="https://github.com/YonathanGuez/crawler_python3/blob/master/help_archive/img/crawler_sementic_hn.png">
