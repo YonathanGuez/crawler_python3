@@ -1,6 +1,7 @@
 # coding: utf-8
 from bs4 import BeautifulSoup
 import requests
+import argparse
 
 class balise_analyse:
     def __init__(self, balise, text, res=""):
@@ -116,7 +117,12 @@ class AnalyseHeading:
             print("***** Bad sementics Hn *****")
 
 if __name__ == '__main__':
-   # url = 'http://sametmax.com/pourquoi-if-__name__-__main__-en-python/'
-    url = 'https://www.pythonforbeginners.com/beautifulsoup/beautifulsoup-4-python'
-    analyse = AnalyseHeading(url)
-    analyse.show_analyse()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--url", help="page url i want to check")
+    args = parser.parse_args()
+    if args.url:
+        url = args.url
+        analyse = AnalyseHeading(url)
+        analyse.show_analyse()
+    else:
+        raise ValueError("URL missing")

@@ -1,21 +1,43 @@
-# Begining Crawler / Scraping with Python3 
-Training  :
+# Begining Crawler / Scraping with Python3 :
 This project is dedicate to get some information on website and test some library like BeautifulSoup / Chromedrive / requests  
-
-## Chrome 
-version : 80.0.3XXXX 
-
-## Configuration 
-Python 3.5 
-pip 20 
-chromedrive
 
 ## Install
 ```bash
 $ pip install -r requirements.txt
 ```
+## Check the Hierarchy of all Tags Heading 
+This is a Project check all Tags Hn and the number of character for each tags Hn
 
-## test :
+This project call some SEO technical like how to check the hierarchy of hn
+It is important for the rang of the site if you not use well you can have a bad rank 
+
+In this script we will use only the library : requests and BeautifulSoup
+
+### Configuration: 
+Python 3.5 
+pip 20 
+
+### Run the code :
+```
+python check_heading_hierarchy.py --url <https://URL>
+```
+### Example how to use it : 
+<a href="">
+    <p align="center">
+      <img width="800" height="500" src="">
+    </p>
+</a>
+
+## Help_archive:
+### Chrome 
+version : 80.0.3XXXX 
+
+### Configuration 
+Python 3.5 
+pip 20 
+chromedrive
+
+Example and test for help me to build the project:
 ```
 	 python get_all_anchors.py
 	 python check_heading_hierarchy.py
